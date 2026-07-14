@@ -4,6 +4,8 @@ Multi-model BTC/USD 1-minute prediction server with replay and paper trading UI.
 
 Three TensorFlow Flatten+Net models (close, volume, high/low) predict 1 candle ahead based on 200 lookback candles with 10 features (close, high, low, volume, MA10, MA20, BB upper/lower, EMA10, OBV).
 
+![Demo](2026-07-14.mp4)
+
 ## Quick Start
 
 ```bash
